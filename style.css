@@ -1,0 +1,10 @@
+h1, h2{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
