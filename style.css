@@ -29,3 +29,10 @@ a:hover{
 a:visited{
     color:grey;
 }
+
+.week{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px double grey;
+}
