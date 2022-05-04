@@ -36,3 +36,11 @@ a:visited{
     justify-content: space-around;
     border: 2px double grey;
 }
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 2px double grey;
+}
+
