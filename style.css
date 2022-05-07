@@ -44,3 +44,9 @@ a:visited{
     border-top: 2px double grey;
 }
 
+#suggestions{
+    height:100px;
+    width:100%;
+    overflow-y: scroll;
+}
+

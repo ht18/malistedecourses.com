@@ -1,10 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title> malistedecourses.com </title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> malistedecourses.com </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <header>
     <div class="sign_in">
@@ -13,88 +14,300 @@
     <h1>malistedecourses.com</h1>
     <h2>Organize your meals and your life with ease.</h2>
 </header>
+<nav>
+    <ul>
+        <li><a href=scheduling.html>Scheduling</a></li> <!--Menu où l'on sélectionne les recettes de la semaine et où on les place dans le planning-->
+        <li><a href=edition.html>Edition</a></li><!--Menu où l'on ajoute ses recettes-->
+        <li><a href=analyze.html>Analyze</a></li> <!--Menu où l'on peut analyser ce que l'on a mangé (prix, santé, etc.)-->
+    </ul>
+</nav>
 <body>
-    <nav>
-        <ul>
-            <li><a href=scheduling.html>Scheduling</a></li> <!--Menu où l'on sélectionne les recettes de la semaine et où on les place dans le planning-->
-            <li><a href=edition.html>Edition</a></li><!--Menu où l'on ajoute ses recettes-->
-            <li><a href=analyze.html>Analyze</a></li> <!--Menu où l'on peut analyser ce que l'on a mangé (prix, santé, etc.)-->
-        </ul>
-    </nav>
-</body>
-    <br>
     <h3>What do i want to eat this week ?</h3>
-    <div class="week">
-        <div class="day">Monday</div>
-        <div class="day">Tuesday</div>
-        <div class="day">Wednesday</div>
-        <div class="day">Thursday</div>
-        <div class="day">Friday</div>
-        <div class="day">Saturday</div>
-        <div class="day">Sunday</div>
+     <div class="week">
+        <div class="day">Monday
+            <div class="container">
+                <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+             </div>
+        </div>
+        <div class="day">Tuesday
+             <div class="container">
+                <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+             </div>
+        </div>
+        <div class="day">Wednesday
+             <div class="container">
+                <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+             </div>
+        </div>
+        <div class="day">Thursday
+            <div class="container">
+                <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+             </div>
+        </div>
+        <div class="day">Friday
+            <div class="container">
+                <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+             </div>
+        </div>
+        <div class="day">Saturday
+           <div class="container">
+                <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+             </div>
+        </div>
+        <div class="day">Sunday
+            <div class="container">
+                <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+                <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
+             </div>
+        </div>
     </div>
     <h3>And the week after ?</h3>
     <div class="week">
         <div class="day">Monday
             <div class="container">
                 <div class="time">Breakfast</div>
-                    <label for="searchInput">What do you want to eat ?</label>
-                    <input class="search" id="searchInput" type="text">
-                    <script src="script.js"></script>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
                     <div id="suggestions"></div>
                 <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
              </div>
         </div>
         <div class="day">Tuesday
              <div class="container">
                 <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
              </div>
         </div>
         <div class="day">Wednesday
              <div class="container">
                 <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
              </div>
         </div>
         <div class="day">Thursday
             <div class="container">
                 <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
              </div>
         </div>
         <div class="day">Friday
             <div class="container">
                 <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
              </div>
         </div>
         <div class="day">Saturday
            <div class="container">
                 <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
              </div>
         </div>
         <div class="day">Sunday
             <div class="container">
                 <div class="time">Breakfast</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Lunch</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Snack</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
                 <div class="time">Diner</div>
+                    <label for="searchInput"></label>
+                    <input class="search" id="searchInput" type="text" placeholder=" What do i want to eat ?">
+                    <div id="suggestions"></div>
              </div>
         </div>
     </div>
-
+    <script src="script.js"></script>
+</body>
 </html>
